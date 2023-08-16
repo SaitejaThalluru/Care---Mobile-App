@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Hindi Validation Sample</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ab2df030-0eb9-449f-bf9d-f73e671742ff</testCaseGuid>
+   <testCaseGuid>6ddb82a8-1fc0-4552-9bf3-fa5c3a4aed66</testCaseGuid>
 </TestCaseEntity>

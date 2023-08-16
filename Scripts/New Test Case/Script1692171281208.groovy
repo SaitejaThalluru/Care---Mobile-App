@@ -17,23 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ThalluruSaiteja\\Downloads\\religare-production-debug.apk', true)
-
-Mobile.tap(findTestObject('android.widget.TextView - SKIP'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Hindi text/android.widget.ImageButton (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Hindi text/android.widget.CheckBox (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Hindi text/android.widget.Button - APPLY (1)'), 0)
-
-Mobile.takeScreenshot('C:\\Users\\THALLU~1\\AppData\\Local\\Temp\\screenshot2120679567413388972.png')
-
-Mobile.tap(findTestObject('Hindi text/android.widget.ImageButton'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Hindi text/android.widget.CheckBox (2)'), 0)
-
-Mobile.tap(findTestObject('Hindi text/android.widget.Button - APPLY (1)'), 0)
-
-Mobile.closeApplication()
-

@@ -19,34 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\ThalluruSaiteja\\Downloads\\religare-production-release.apk', true)
 
-Mobile.tap(findTestObject('android.widget.TextView - SKIP'), 0)
+Mobile.tap(findTestObject('Demo Objects/android.widget.TextView - Skip'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Demo Negative/android.widget.RelativeLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.TextView - Buy New Health Insurance Policy'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.TextView - Care SupremeInsurance'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Insurance/android.widget.EditText - Mobile Number'), '8919396555', 0)
-
-Mobile.setText(findTestObject('Object Repository/Insurance/android.widget.EditText - Your Name'), 'Test', 0)
-
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.Button - NEXT'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Insurance/android.widget.Button - CALCULATE PREMIUM arrow'), 
+Mobile.tap(findTestObject('Object Repository/Demo Negative/android.widget.TextView - Buy New Health Insurance Policy'), 
     0)
 
-Mobile.takeScreenshot('C:\\Users\\THALLU~1\\AppData\\Local\\Temp\\screenshot793950333426049985.png')
+Mobile.tap(findTestObject('Object Repository/Demo Negative/android.widget.TextView - Health Insurance'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Insurance/android.widget.TextView - Get a Free Quote'), 0)
+Mobile.verifyElementText(findTestObject('Demo Negative/android.widget.TextView - Health Insurance (1)'), 'Health')
 
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Demo Negative/android.widget.ImageButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.ImageButton (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Demo Negative/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Insurance/android.widget.ImageView'), 0)
-
-Mobile.tap(findTestObject('Insurance/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Demo Negative/android.widget.ImageView'), 0)
 
 Mobile.closeApplication()
 
